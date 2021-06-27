@@ -268,7 +268,7 @@ image {
   margin-right: 93px;
 }
 
-.logo-span-header {
+.header-logo {
   color: var(--title-color);
 }
 
@@ -931,7 +931,7 @@ image {
   scroll-behavior: smooth;
 } */
 
-.address-text {
+.address__text {
   font-style: normal;
 
   color: var(--background-color);
@@ -940,17 +940,17 @@ image {
   margin-bottom: 9px;
 }
 
-.address-list {
+.address__list {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
 
-.address-list-item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.address-link {
+.address__link {
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
@@ -962,24 +962,24 @@ image {
   color: var(--transparent-white-color);
 }
 
-.address-list:last-child {
+.address__list:last-child {
   display: block;
 }
 
-.social-media-container {
+.sm__container {
   width: 206px;
 }
 
-.social-media-section {
+.sm {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.footer-soc-media-title {
+.sm__title {
   display: none;
 }
 
-.social-media-section-text {
+.sm__text {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -991,15 +991,15 @@ image {
   margin-bottom: 20px;
 }
 
-.social-media-list {
+.sm__list {
   display: flex;
 }
 
-.social-media-list-item {
+.sm__item {
   margin-right: 10px;
 }
 
-.social-media-list-item-link {
+.sm__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1013,8 +1013,8 @@ image {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.social-media-list-item-link:hover,
-.social-media-list-item-link:focus {
+.sm__link:hover,
+.sm__link:focus {
   background-color: var(--main-active-color);
 }
 
@@ -1028,11 +1028,11 @@ image {
 
 /* forms */
 /* mailing form*/
-.mailing-form-container {
+.mailing__container {
   margin-left: 93px;
 }
 
-.mailing-form-label {
+.mailing__label {
   display: block;
 
   cursor: pointer;
@@ -1047,7 +1047,7 @@ image {
   margin-bottom: 20px;
 }
 
-.input-container {
+.mailing__input--container {
   display: flex;  
   justify-content: center;
   align-items: center;
@@ -1088,7 +1088,7 @@ image {
   color: var(--transparent-white-color);
 }
 
-.subscribe-mailing-button {
+.mailing__button {
   position: relative;
 
   display: flex;  

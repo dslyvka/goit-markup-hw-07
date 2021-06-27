@@ -556,11 +556,11 @@ image {
 /* what are we doing section */
 
 /* our team section */
-.our-team-section {
+.our-team {
   background-color: var(--white-buttons-color);
 }
 
-.our-team-title {
+.our-team__title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -568,15 +568,15 @@ image {
   margin-bottom: 50px;
 }
 
-.our-team-list {
+.our-team__list {
   display: flex;
 }
 
-.our-team-social-media-list {
+.social-media {
   display: flex;
 }
 
-.our-team-list-item {
+.our-team__item {
   background: var(--background-color);
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -589,15 +589,15 @@ image {
   padding-left: 32px; */
 }
 
-.our-team-list-item:not(:last-child) {
+.our-team__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.our-team-social-media-list-item:not(:last-child) {
+.social-media__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.our-team-second-title {
+.our-team__title--second {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -607,7 +607,7 @@ image {
   margin-bottom: 10px;
 }
 
-.our-team-text {
+.our-team__text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -616,14 +616,14 @@ image {
   margin-bottom: 16px;
 }
 
-.our-team-social-media-list-link {
+.social-media__link {
   width: 44px;
   height: 44px;
 
   transition: background-color 250ms var(--transition);
 }
 
-.our-team-social-media-list-link {
+.social-media__link {
   border-radius: 50%;
 
 
@@ -635,27 +635,27 @@ image {
   align-items: center;
 }
 
-.our-team-social-media-list-item-icon {
+.social-media__icon {
   width: 20px;
   height: 20px;
   fill: var(--social-meadia-logo);
 }
 
-.our-team-text-container {
+.our-team__container {
   padding-top: 30px;
   padding-right: 32px;
   padding-bottom: 30px;
   padding-left: 32px;
 }
 
-.our-team-social-media-list-link:hover,
-.our-team-social-media-list-link:focus {
+.social-media__link:hover,
+.social-media__link:focus {
   background-color: var(--main-active-color);
   border-radius: 50%;
 }
 
-.our-team-social-media-list-link:hover .our-team-social-media-list-item-icon,
-.our-team-social-media-list-link:focus .our-team-social-media-list-item-icon {
+.social-media__link:hover .social-media__icon,
+.social-media__link:focus .social-media__icon {
   fill: var(--background-color);
 }
 /* our team section */

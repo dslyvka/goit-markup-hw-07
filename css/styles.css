@@ -400,12 +400,12 @@ image {
   margin: 0 auto;
 }
 
-.hero-container {
+.hero__container {
   text-align: center;
   /* background-color: var(--hero-background-color); */
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -423,7 +423,7 @@ image {
   width: 696px;
 }
 
-.hero-button {
+.hero__button {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;

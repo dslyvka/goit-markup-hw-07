@@ -735,8 +735,8 @@ image {
   height: 43.93px;
 }
 
-.clients-list-item-link:hover .client-icon,
-.clients-list-item-link:focus .client-icon {
+.clients__link:hover .client-icon,
+.clients__link:focus .client-icon {
   fill: var(--main-active-color);
 }
 

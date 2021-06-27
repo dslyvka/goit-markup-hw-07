@@ -503,11 +503,11 @@ image {
 /* advantages section */
 
 /* what are we doing section */
-.what-are-we-doing-section {
+.wawd {
   padding-top: 0;
 }
 
-.what-are-we-doing-title {
+.wawd__title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -516,20 +516,20 @@ image {
   margin-bottom: 50px;
 }
 
-.what-are-we-doing-list {
+.wawd__list {
   display: flex;
   padding-left: 0;
 }
 
-.what-are-we-doing-list-item:not(:last-child) {
+.wawd__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.img-wawd-container {
+.wawd-img__container {
   position: relative;
 }
 
-.wawd-text {
+.wawd__text {
   font-weight: 700;
   line-height: 1.14;
   text-align: center;

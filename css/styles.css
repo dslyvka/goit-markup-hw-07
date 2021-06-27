@@ -445,18 +445,18 @@ image {
 
 /* advantages section */
 
-.advantages-list {
+.advantages__list {
   display: flex;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.advantages-list-item:not(:last-child) {
+.advantages__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.advantages-svg-background {
+.advantages__svg--background {
   width: 270px;
   height: 120px;
 
@@ -490,13 +490,13 @@ image {
   height: 70px;
 }
 
-.advantages-title {
+.advantages__title {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
 }
 
-.advantages-text {
+.advantages__text {
   margin-top: 0;
   margin-bottom: 0;
 }

@@ -836,7 +836,7 @@ image {
   margin-right: 30px;
 }
 
-.advantages__svg--background {
+.advantages__svg-background {
   width: 270px;
   height: 120px;
   border-radius: 4px;
@@ -1071,6 +1071,11 @@ image {
   /* transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
+.clients__link:hover .client-icon,
+.clients__link:focus .client-icon {
+  fill: var(--main-active-color);
+}
+
 .client__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1117,11 +1122,6 @@ image {
 .client6 {
   width: 93.79px;
   height: 43.93px;
-}
-
-.clients__link:hover .client-icon,
-.clients__link:focus .client-icon {
-  fill: var(--main-active-color);
 }
 
 .portfolio__list {
